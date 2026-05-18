@@ -1,0 +1,10 @@
+{
+  "heroes": [
+    {
+      "name": "varheroes:magneto",
+      "file": "varheroes:heroes/magneto",
+      "category": "custom",
+      "displayName": "Magneto"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "power.varheroes.magnetic_powers.name",
+  "modifiers": {
+    "fiskheroes:telekinesis": {
+      "range": 32.0,
+      "strength": 1.5,
+      "wheelScrollControl": true,
+      "pullSpeed": 0.3,
+      "pushSpeed": 0.4,
+      "canMoveBlocks": true,
+      "canMoveEntities": true,
+      "soundEvents": {
+        "PULL": "fiskheroes:glow_teleport",
+        "PUSH": "fiskheroes:flight_boost"
+      },
+      "particles": {
+        "PULL": "minecraft:enchant",
+        "PUSH": "minecraft:end_rod"
+      }
+    },
+    "fiskheroes:magnetic_flight": {
+      "speed": 0.15,
+      "boostSpeed": 0.3,
+      "canBoost": true,
+      "collision": {
+        "blocks": {
+          "stopFlying": false,
+          "takeDamage": false
+        },
+        "entities": {
+          "stopFlying": false,
+          "dealDamage": false
+        }
+      },
+      "soundEvents": {
+        "ENABLE": "fiskheroes:flight_loop"
+      },
+      "particles": {
+        "LEVITATING": "minecraft:redstone"
+      }
+    },
+    "fiskheroes:magnetic_pulse": {
+      "damageProfile": {
+        "damage": 10.0,
+        "types": {
+          "MAGNETIC": 1.0
+        },
+        "properties": {
+          "KNOCKBACK": 2.0
+        }
+      },
+      "range": 20.0,
+      "radius": 8.0,
+      "cooldown": 60,
+      "soundEvents": {
+        "PULSE": "fiskheroes:flight_boost"
+      },
+      "particles": {
+        "EXPLOSION": "minecraft:end_rod"
+      }
+    },
+    "fiskheroes:electromagnetic_shield": {
+      "radius": 5.0,
+      "damageReduction": 0.8,
+      "duration": 200,
+      "cooldown": 100,
+      "soundEvents": {
+        "ACTIVATE": "fiskheroes:glow_teleport"
+      },
+      "particles": {
+        "SHIELD": "minecraft:crit"
+      }
+    },
+    "fiskheroes:metal_armor": {
+      "radius": 6.0,
+      "damageReduction": 0.6,
+      "duration": 150,
+      "canMove": true,
+      "soundEvents": {
+        "ENABLE": "fiskheroes:glow_teleport"
+      }
+    },
+    "fiskheroes:magnetic_aura": {
+      "radius": 12.0,
+      "strengthBoost": 1.15,
+      "speedBoost": 1.1,
+      "particles": {
+        "AURA": "minecraft:redstone"
+      }
+    }
+  }
+}

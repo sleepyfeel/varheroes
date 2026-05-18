@@ -1,0 +1,17 @@
+{
+  "name": "power.varheroes.electromagnetic_field.name",
+  "modifiers": {
+    "fiskheroes:electromagnetic_field": {
+      "radius": 15.0,
+      "entityDamage": 2.0,
+      "blockAffection": true,
+      "attractMetalEntities": true,
+      "soundEvents": {
+        "AMBIENT": "fiskheroes:glow_teleport"
+      },
+      "particles": {
+        "FIELD": "minecraft:redstone"
+      }
+    }
+  }
+}
